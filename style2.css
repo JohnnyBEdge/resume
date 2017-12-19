@@ -1,0 +1,165 @@
+html {
+  font-family: 'Montserrat', cursive;
+  background-image: url(photos/vietnam.jpg);
+  background-size: cover;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  background-color: #e0d3ac;
+}
+
+body {
+  background-color: black;
+    margin: 150px;
+    margin-top: 50px;
+    opacity: .75;
+  }
+
+  nav {
+    background-color: white;
+    opacity: .5;
+    position: relative;
+    right: 100px;
+    }
+
+    nav li {
+      font-size: 22px;
+      display: inline-block;
+      list-style-type: none;
+      margin-right: 75px;
+      margin-bottom: 10px;
+      }
+    nav ul {
+        text-align: center;
+        font-size: 40px;
+          }
+
+h1 {
+  font-size: 60px;
+  right: 100px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 200px;
+  }
+
+header .propic{
+  height: 175px;
+  width: 175px;
+  position: relative;
+  float: left;
+  left: 20px;
+  top: 45px;
+  display: inline-block;
+    }
+
+  .banner {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    background-color: yelow;
+    margin: 0 auto;
+      }
+
+  header  {
+    margin-left: 200px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    }
+
+
+
+  .banner .propic {
+    float: left;
+    }
+
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+      }
+
+  .fa:hover {
+    opacity: 0.7;
+    }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    }
+
+  .fa-google {
+    background: #007bb5;
+    color: white;
+    }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
+
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    }
+
+  hr {
+    color: black;
+    }
+
+  .workexperience {
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+
+  .buttons img {
+    height: 50px;
+    width: auto;
+    color: white;
+    position: fixed;
+    }
+
+  a:hover{
+    background-color: red;
+    }
+
+
+  .buttons .previous {
+    float: left;
+    margin-left: 10px;
+    }
+
+  .buttons .next {
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 300px;
+  }
+
+  p {
+    text-indent: 4.0em;
+  }
+
+  h4 {
+    text-indent: 2.0em;
+    text-decoration: underline;
+
+  }
+
+  .job ul {
+    list-style: circle;
+    font-size: 18px;
+  }
+
+  .job h2 {
+    display: inline-block;
+    }
+
+  .job p {
+    font-size: 16px;
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+  }

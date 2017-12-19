@@ -4,10 +4,9 @@ html {
   background-image: url(photos/vietnam.jpg);
   background-size: cover;
   color: white;
-=======
   font-family: 'Poiret One', cursive;
   background-color: #e0d3ac;
->>>>>>> fce45f027494d609b572142fc40264ca1bfef4c2
+
 }
 
 h1 {
@@ -204,5 +203,5 @@ body {
   background-color: white;
   margin: 50px;
   box-shadow: 6px 6px grey;
->>>>>>> fce45f027494d609b572142fc40264ca1bfef4c2
+  background-image: url("vietnam.jpg");
 }

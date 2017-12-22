@@ -1,9 +1,9 @@
 html {
-  font-family: 'Montserrat', cursive;
+  font-family: 'Helvetica', cursive;
   background-image: url(photos/vietnam.jpg);
   background-size: cover;
   color: white;
-  font-family: 'Poiret One', cursive;
+
   background-color: #e0d3ac;
 }
 
@@ -12,13 +12,15 @@ body {
     margin: 150px;
     margin-top: 50px;
     opacity: .75;
+    height: 100%;
+
   }
 
   nav {
     background-color: white;
     opacity: .5;
     position: relative;
-    right: 100px;
+    margin-left: auto;
     }
 
     nav li {
@@ -39,6 +41,7 @@ h1 {
   text-align: center;
   display: inline-block;
   margin-left: 200px;
+  font-family: 'Poiret One', cursive;
   }
 
 header .propic{
@@ -110,6 +113,20 @@ header .propic{
     color: black;
     }
 
+    .aboutme {
+      margin: 50px 100px;
+
+    }
+
+    .aboutme p{
+      text-indent: 2em;
+      text-align: justify;
+    }
+
+    #title {
+      text-align: center;
+      }
+
   .workexperience {
     margin-left: 100px;
     margin-right: 100px;
@@ -136,30 +153,38 @@ header .propic{
     float: right;
     margin-right: 60px;
     margin-bottom: 300px;
-  }
-
-  p {
-    text-indent: 4.0em;
-  }
-
-  h4 {
-    text-indent: 2.0em;
-    text-decoration: underline;
-
-  }
-
-  .job ul {
-    list-style: circle;
-    font-size: 18px;
-  }
-
-  .job h2 {
-    display: inline-block;
     }
 
-  .job p {
-    font-size: 16px;
-    float: right;
+  .workexperience h3 {
+    text-indent: 25px;
+    text-decoration: underline;
+    margin: 0;
+    }
+
+  .workexperience ul {
+    margin-left: 50px;
+    list-style: circle;
+    font-size: 18px;
+    }
+
+  .workexperience h2 {
     display: inline-block;
-    margin-right: 100px;
-  }
+    margin-left: 0;
+    }
+
+  .workexperience hr {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    }
+
+
+  .workexperience p {
+    font-size: 16px;
+    display: inline;
+    text-indent: 50px;
+    }
+
+    p1 {
+      float: right;
+      margin-top: 10px;
+    }

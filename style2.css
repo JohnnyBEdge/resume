@@ -67,7 +67,15 @@ header .propic{
     margin-left: 200px;
     font-size: 18px;
     text-align: center;
-    display: inline-block;
+    position: relative;
+    }
+
+    header .propic {
+      height: 250px;
+      width: auto;
+      position: relative;
+      float: left;
+
     }
 
 

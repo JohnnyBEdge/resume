@@ -7,18 +7,37 @@ html {
   background-color: #e0d3ac;
 }
 
+img{
+  float:left;
+  margin-left: -20%;
+}
+
 body {
   background-color: black;
     margin: 150px;
     margin-top: 50px;
     opacity: .75;
     height: 100%;
-
   }
 
-  nav {
-    background-color: white;
-    opacity: .5;
+  #contactinfo{
+    margin-right: 25%;
+    }
+  #contactinfo h1{
+    font-size: 60px;
+    right: 100px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Poiret One', cursive;
+  }
+
+  .sociallinks{
+    margin-right: 18%;
+  }
+
+  nav a{
+    color: white;
+    opacity: 1;
     position: relative;
     margin-left: auto;
     }
@@ -35,14 +54,6 @@ body {
         font-size: 40px;
           }
 
-h1 {
-  font-size: 60px;
-  right: 100px;
-  text-align: center;
-  display: inline-block;
-  margin-left: 200px;
-  font-family: 'Poiret One', cursive;
-  }
 
 header .propic{
   height: 175px;
@@ -119,6 +130,7 @@ header .propic{
 
   hr {
     color: black;
+    margin-right: 40%;
     }
 
     .aboutme {
